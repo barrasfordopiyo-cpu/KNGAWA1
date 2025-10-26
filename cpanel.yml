@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/kngawac1/public_html/KNGAWA
+    - /usr/bin/git pull
+    - /bin/cp -R * $DEPLOYPATH
